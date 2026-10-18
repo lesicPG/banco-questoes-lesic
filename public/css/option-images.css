@@ -1,0 +1,8 @@
+.option-image { width: 104px; height: 104px; object-fit: contain; flex: 0 0 auto; border-radius: 6px; }
+.option-image-missing { font-size: .85rem; color: #64748b; }
+.option-row input[type="hidden"] { display: none; }
+.option-row input[type="radio"] { grid-column: 1; grid-row: 1; }
+.option-row input[type="text"] { grid-column: 2; grid-row: 1; min-width: 0; }
+.option-row .option-image, .option-row .option-image-missing { grid-column: 2; grid-row: 2; }
+.option-row .option-image { width: 76px; height: 76px; }
+
