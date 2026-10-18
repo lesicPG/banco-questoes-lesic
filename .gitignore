@@ -1,0 +1,13 @@
+/config/*.php
+!/config/database.example.php
+!/config/google.example.php
+/.env
+/.env.*
+!/.env.example
+/vendor/
+/logs/
+*.log
+/public/uploads/
+*dump*.sql
+*backup*.sql
+
