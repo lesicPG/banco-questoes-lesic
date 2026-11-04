@@ -36,12 +36,13 @@ try {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Banco de Questões - LESIC</title>
-    <link rel="stylesheet" href="css/style.css?v=20261014-author-credit-2">
+    <link rel="stylesheet" href="css/style.css?v=20261103-github-link-1">
 </head>
 <body>
 <?php
 $pageTitle = 'Banco de Questões';
 $pageEyebrow = 'Desenvolvido por Antony Goes';
+$pageGithubUrl = 'https://github.com/lesicPG/banco-questoes-lesic';
 $pageSubtitle = 'Pesquise perguntas e filtre por texto, categoria, jogo ou tipo para encontrar itens que podem ser reutilizados na avaliação de jogos educacionais.';
 $pageAction = Auth::loggedIn()
     ? '<div class="actions"><a class="button" href="cadastrar.php">+ Nova questão</a><form method="post" action="sair.php">' . Auth::field() . '<button class="button secondary" type="submit">Sair</button></form></div>'
@@ -105,4 +106,3 @@ $pageAction = Auth::loggedIn()
 </main>
 </body>
 </html>
-
