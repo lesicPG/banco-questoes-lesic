@@ -132,7 +132,8 @@ body { background: #fff; color: var(--lesic-ink); font-family: Arial, Helvetica,
 .page-heading { text-align: center; grid-column: 2; }
 .page-heading .eyebrow { margin: 0 0 12px; color: var(--lesic-muted); font-size: 12px; font-weight: 700; letter-spacing: .13em; }
 .page-heading h1 { margin: 0 auto; color: var(--lesic-purple); font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif; font-size: clamp(30px, 4.2vw, 48px); font-stretch: condensed; font-weight: 500; line-height: 1.15; text-transform: uppercase; }
-.page-heading > p:last-child { margin: 12px auto 0; color: #505058; font-size: 16px; }
+.page-heading > p:not(.eyebrow) { margin: 12px auto 0; color: #505058; font-size: 16px; }
+.github-link { display: inline-block; margin-top: 18px; text-decoration: none; }
 .page-actions { grid-column: 3; grid-row: 1; justify-self: end; }
 .page-actions .actions { margin: 0; }
 .page-rule { width: min(790px, 64%); height: 7px; margin: 0 auto; background: var(--lesic-cyan); }
@@ -183,7 +184,7 @@ fieldset legend { padding: 0 6px; color: var(--lesic-purple); font-weight: 700; 
     .page-banner-inner { min-height: auto; padding: 35px 0 26px; display: flex; flex-direction: column; gap: 20px; }
     .page-heading .eyebrow { font-size: 10px; line-height: 1.5; }
     .page-heading h1 { font-size: clamp(27px, 8vw, 38px); }
-    .page-heading > p:last-child { font-size: 15px; line-height: 1.5; }
+    .page-heading > p:not(.eyebrow) { font-size: 15px; line-height: 1.5; }
     .page-rule { width: 76%; height: 6px; }
     .content { padding-top: 25px; }
     .content-heading { padding: 16px; }
@@ -194,4 +195,3 @@ fieldset legend { padding: 0 6px; color: var(--lesic-purple); font-weight: 700; 
     .detail-grid { grid-template-columns: 1fr; }
     .actions { flex-wrap: wrap; }
 }
-
